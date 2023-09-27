@@ -1,0 +1,124 @@
+
+
+/* Style the navbar container */
+.navbar {
+    background-color: #611355c8; /* Navbar background color */
+    padding: 10px; /* Adjust padding as needed */
+    border-radius: 10px;
+}
+
+/* Style the link */
+.add-image-link {
+    text-decoration: none; /* Remove underlines from the link */
+    color: #b3b9b3; /* Link text color */
+    font-weight: bold; /* Make the text bold */
+    padding: 5px 10px; /* Add some padding for spacing */
+    border: 1px solid #dbdee0; /* Add a border */
+    border-radius: 4px; /* Rounded corners */
+    transition: background-color 0.3s ease-in-out; /* Smooth background color transition */
+}
+
+/* Style the link on hover */
+.add-image-link:hover {
+    background-color: #0056b3; /* Change the background color on hover */
+    color: white; /* Change text color on hover */
+}
+
+/* Style the form container */
+/* Style the container */
+.container {
+    width: 350px; /* Adjust the maximum width as needed */
+    height: 400px;
+    margin: 0 auto;
+    vertical-align: auto;
+    padding: 20px; /* Add some padding for spacing */
+    background-color: #913ce1; /* Background color */
+    border: 1px solid #ccc; /* Border with a light gray color */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Style the content inside the container */
+.container h1 {
+    font-size: 24px; /* Heading font size */
+    margin-bottom: 20px; /* Space between heading and form */
+    margin-left: 95px;
+    color: #fff;
+}
+
+/* Style the form inside the container */
+.container form {
+    padding: 20px; /* Add padding to the form */
+    background-color: #fff; /* Form background color */
+    border: 1px solid #ddd; /* Form border with a light gray color */
+    border-radius: 10px; /* Rounded corners for the form */
+    height: 150px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+/* Style the submit button */
+.container input[type="submit"] {
+    background-color: #007BFF; /* Button background color */
+    color: white; /* Button text color */
+    padding: 10px 20px; /* Button padding */
+    border: none; /* Remove button border */
+    border-radius: 4px; /* Rounded corners for the button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    margin-top: 10px;
+}
+
+/* Style the submit button on hover */
+.container input[type="submit"]:hover {
+    background-color: #0056b3; /* Button background color on hover */
+}
+
+/* Style the image gallery container */
+/* Style the image gallery container */
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust the gap between images as needed */
+    justify-content: left;
+    margin-top: 20px;
+    margin-left: 20px; /* Center align images horizontally */
+}
+
+/* Style individual image containers */
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Style individual images */
+.image-container img {
+    width: 200px; /* Set the desired width for all images */
+    height: 200px; /* Set the desired height for all images */
+    border: 1px solid #ddd; /* Add a border around each image */
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); /* Add a subtle shadow effect */
+    transition: transform 0.2s ease-in-out; /* Add a smooth zoom effect on hover */
+}
+
+/* Style individual images on hover */
+.image-container img:hover {
+    transform: scale(1.1); /* Zoom in the image slightly on hover */
+    border-color: #007BFF; /* Change the border color on hover */
+}
+
+/* Style date-time and text */
+.info-container {
+    margin-top: 10px;
+}
+
+.date-time {
+    font-size: 14px;
+    color: #888;
+}
+
+.text {
+    font-size: 16px;
+    font-weight: bolder;
+}

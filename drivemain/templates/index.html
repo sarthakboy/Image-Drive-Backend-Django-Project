@@ -1,0 +1,28 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="{% static 'drivemain/style/style.css' %}">
+</head>
+<body >
+    <nav class="navbar">
+        <a href="home/"class="add-image-link">Add Image</a>
+        <div style= "align-self: center; float: right; color: antiquewhite; position: relative; bottom: 20px;"><h2 >Sarthak Pandey</h2></div>
+    </nav>
+    <div class="image-gallery">
+        {% for x in images %}
+        <div class="image-container">
+            <img src="{{ x.image.url }}" alt="">
+            <div class="info-container">
+                <p class="date-time">{{ x.date_time }}</p>
+                <p class="text">{{ x.text }}</p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+</body>
+</html>
